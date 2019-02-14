@@ -122,6 +122,10 @@ body {
                 font-size: 0.9em;
                 margin: 0;
             }
+
+            ul {
+                list-style-type: none;
+            }
         }
 
         &:before, &:after {
@@ -532,6 +536,7 @@ footer {
         font-size: 0.9em;
         margin: 0;
     }
+
 }
 
 .vtimeline-point {
