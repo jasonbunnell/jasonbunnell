@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Jason Bunnell
+N:Bunnell;Jason;;;
+NICKNAME:Jason
+EMAIL;TYPE=INTERNET;TYPE=HOME:jason.bunnell@gmail.com
+TEL;TYPE=CELL:(214) 649-4477
+item1.ORG:Bunnell Associates
+item1.X-ABLabel:
+item2.TITLE:Managing Director
+item2.X-ABLabel:
+END:VCARD

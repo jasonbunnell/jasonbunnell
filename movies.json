@@ -1,0 +1,27 @@
+[
+   {
+      "id": 1,
+      "title": "Star Wars",
+      "year": "1977"
+   },
+   {
+      "id": 2,
+      "title": "Inception",
+      "year": "2010"
+   },
+   {
+      "id": 3,
+      "title": "The Matric",
+      "year": "1999"
+   },
+   {
+      "id": 4,
+      "title": "Edge of Tomorrow",
+      "year": "2014"
+   },
+   {
+      "id": 5,
+      "title": "Ex Machina",
+      "year": "2014"
+   }
+]

@@ -1,0 +1,14 @@
+{
+   "name": "jasonbunnell-materialize",
+   "version": "0.1.0",
+   "description": "Personal site using Vanilla JavaScript and Materialize design framework.",
+   "main": "index.html",
+   "keywords": [
+      "bunnell",
+      "finger lakes",
+      "hospitality",
+      "jason bunnell"
+   ],
+   "author": "Jason Bunnell",
+   "license": "ISC"
+}
