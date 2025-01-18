@@ -9,5 +9,29 @@ export default defineNuxtConfig({
   ],
   colorMode: {
     classSuffix: '',
+  },
+  app: {
+    head: {
+      titleTemplate: '%s - Jason Bunnell',
+      link: [
+        {
+          rel: 'preconnect',
+          href: 'https://fonts.googleapis.com'
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap',
+          crossorigin: ''
+        },
+        {
+          rel: 'icon',
+          type: 'image/x-icon',
+          href: '/favicon.ico'
+        }
+      ],
+      htmlAttrs: {
+        lang: 'en'
+      }
+    }
   }
 })
