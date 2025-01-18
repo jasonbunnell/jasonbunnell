@@ -9,7 +9,7 @@
         <li v-for="repository in repos" :key="repository.id" class="border border-grey-200 rounded-md p-4 hover:bg-gray-200 hover:dark:bg-gray-800 font-mono">
           <a :href="repository.html_url" target="_blank">
             <div class="flex items-center justify-between">
-              <div class="font-semibold">{{ repository.name }} </div>
+              <div class="text-xl font-semibold">{{ repository.name }} </div>
               <div>{{ repository.stargazers_count }} *</div>
             </div>
             <p class="text-small">{{ repository.description }}</p>
