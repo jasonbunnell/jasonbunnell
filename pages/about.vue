@@ -30,7 +30,7 @@
                 <div class="education-block">
                     <h3>Baylor University</h3>
                     <span class="education-date">Sept 1992 - Dec 1997</span>
-                    <h4>Bachelor of Business Administration - Entrepreneurship</h4>
+                    <h4>Bachelor of Business Administration</h4>
                 </div>
 
 
@@ -112,14 +112,6 @@
          </ul>
       </div>
 
-      <div id="skills">
-         <h2 class="text-2xl mt-8 text-gray-900">Projects</h2>
-         <ul>
-            <li><a href="https://flxcompass.com/">FLXcompass</a></li>
-            <li><a href="/sound-board.html">Starwars Soundboard</a></li>
-            <li><a href="/philophonic.html">Music Player</a></li>
-         </ul>
-      </div>
    </section>
 
     </div>

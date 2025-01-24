@@ -1,13 +1,13 @@
 <template>
     <div>
-        <header class="bg-slate-800">
+        <header class="bg-slate-700">
             <nav class="container mx-auto p-4 flex justify-between">
                 <NuxtLink to="/"><h1 class="text-4xl text-white">Jason Bunnell</h1></NuxtLink>
-                        <ul class="flex gap-4">
-                            <li><NuxtLink to="/about"><span class="text-xl text-white">about</span></NuxtLink></li>
-                            <li><NuxtLink to="/blog"><span class="text-xl text-white">blog</span></NuxtLink></li>
-                            <li><NuxtLink to="/projects"><span class="text-xl text-white">projects</span></NuxtLink></li>
-                            <li><NuxtLink to="/notes"><span class="text-xl text-white">notes</span></NuxtLink></li>
+                        <ul class="flex gap-8">
+                            <li><NuxtLink to="/about"><span class="text-2xl text-white">about</span></NuxtLink></li>
+                            <li><NuxtLink to="/blog"><span class="text-2xl text-white">blog</span></NuxtLink></li>
+                            <li><NuxtLink to="/projects"><span class="text-2xl text-white">projects</span></NuxtLink></li>
+                            <li><NuxtLink to="/notes"><span class="text-2xl text-white">notes</span></NuxtLink></li>
                         </ul>
                         <ul class="flex gap-4">
                             <li><a href="https://www.facebook.com/jason.bunnell"><img src="/public/img/facebook.png" alt="facebook" class="size-6"></a></li>
