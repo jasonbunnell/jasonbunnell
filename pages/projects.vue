@@ -121,7 +121,7 @@
       <ul>
          <li><a href="https://flxcompass.com/">FLXcompass</a></li>
          <li><a href="/sound-board.html">Starwars Soundboard</a></li>
-         <li><a href="/philophonic.html">Music Player</a></li>
+         <li><NuxtLink to="/radio">Radio</NuxtLink></li>
       </ul>
    </div>
 

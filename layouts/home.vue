@@ -9,7 +9,7 @@
                             <li><NuxtLink to="/about"><span class="text-2xl">about</span></NuxtLink></li>
                             <li><NuxtLink to="/blog"><span class="text-2xl">blog</span></NuxtLink></li>
                             <li><NuxtLink to="/projects"><span class="text-2xl">projects</span></NuxtLink></li>
-                            <li><NuxtLink to="/notes"><span class="text-2xl">notes</span></NuxtLink></li>
+                            <!-- <li><NuxtLink to="/notes"><span class="text-2xl">notes</span></NuxtLink></li> -->
                         </ul>
                         <ul class="flex gap-4">
                             <li><a href="https://www.facebook.com/jason.bunnell"><img src="/public/img/facebook.png" alt="facebook" class="size-6"></a></li>
