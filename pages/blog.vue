@@ -6,5 +6,29 @@
 </template>
 
 <script setup>
+useSeoMeta({
+  title: 'Jason Bunnell',  
+  description: 'Jason Bunnell\'s Blog',
+  ogTitle: 'Jason Bunnell\'s Blog',
+  ogDescription: 'Jason Bunnell\'s Blog',
+  ogImage: '/img/jason-bunnell.jpg',
+  ogUrl: 'blog.jasonbunnell.com',
+  twitterTitle: 'Jason Bunnell',
+  twitterDescription: 'Jason Bunnell\'s Blog.  Find my Tweets @jasonbunnell',
+  twitterImage: '/img/jason-bunnell.jpg',
+  twitterCard: 'summary'
+})
 
+useHead({
+    htmlAttrs: {
+        lang: 'en'
+    },
+    link: [
+        {
+            rel: 'icon',
+            type: 'image/png',
+            href: '..public/favicon.png'
+        }
+    ]
+})
 </script>

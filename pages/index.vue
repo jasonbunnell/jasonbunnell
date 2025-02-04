@@ -24,6 +24,31 @@
 definePageMeta({
     layout: 'home'
 })
+useSeoMeta({
+  title: 'Jason Bunnell',  
+  description: 'Jason Bunnell\'s personal website.  Made with Nuxt and Tailwind.',
+  ogTitle: 'Jason Bunnell\'s personal website.  Made with Nuxt and Tailwind.',
+  ogDescription: 'Jason Bunnell\'s personal website.  Made with Nuxt and Tailwind.',
+  ogImage: '/img/jason-bunnell.jpg',
+  ogUrl: 'jasonbunnell.com',
+  twitterTitle: 'Jason Bunnell',
+  twitterDescription: 'Jason Bunnell\'s personal website.  Tweets @jasonbunnell',
+  twitterImage: '/img/jason-bunnell.jpg',
+  twitterCard: 'summary'
+})
+
+useHead({
+    htmlAttrs: {
+        lang: 'en'
+    },
+    link: [
+        {
+            rel: 'icon',
+            type: 'image/png',
+            href: '..public/favicon.png'
+        }
+    ]
+})
 </script>
 
 <style scoped>
