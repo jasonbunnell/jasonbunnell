@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag', '@nuxtjs/supabase'],
+  modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'],
   app: {
     head: {
       title: 'Jason Bunnell',

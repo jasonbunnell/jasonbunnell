@@ -19,16 +19,4 @@ useSeoMeta({
   twitterCard: 'summary'
 })
 
-useHead({
-    htmlAttrs: {
-        lang: 'en'
-    },
-    link: [
-        {
-            rel: 'icon',
-            type: 'image/png',
-            href: '..public/favicon.png'
-        }
-    ]
-})
 </script>

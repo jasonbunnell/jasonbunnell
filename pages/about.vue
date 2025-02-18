@@ -120,7 +120,7 @@
 <script setup>
 useSeoMeta({
   title: 'Jason Bunnell',  
-  description: 'Discover top Finger Lakes attractions, wineries, distilleries, casinos, and breweries near you with FLXcompass. Your guide to local attractions and hidden gems.',
+  description: 'Abut Jason Bunnell',
   ogTitle: 'About Jason Bunnell',
   ogDescription: 'About Jason Bunnell',
   ogImage: '/img/jason-bunnell.jpg',
@@ -129,19 +129,6 @@ useSeoMeta({
   twitterDescription: 'About Jason Bunnell.  Find my Tweets @jasonbunnell',
   twitterImage: '/img/jason-bunnell.jpg',
   twitterCard: 'summary'
-})
-
-useHead({
-    htmlAttrs: {
-        lang: 'en'
-    },
-    link: [
-        {
-            rel: 'icon',
-            type: 'image/png',
-            href: '..public/favicon.png'
-        }
-    ]
 })
 
 </script>
