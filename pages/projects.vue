@@ -29,7 +29,7 @@
       <h2 class="text-2xl text-gray-900">Web Projects</h2>
       <ul>
          <li><a href="https://flxcompass.com/">FLXcompass</a></li>
-         <li><a href="/sound-board.html">Starwars Soundboard</a></li>
+         <li><NuxtLink to="/sound-board">Starwars Soundboard</NuxtLink></li>
          <li><NuxtLink to="/radio">Radio</NuxtLink></li>
       </ul>
    </div>
@@ -40,14 +40,18 @@
 
 <script setup>
 import { createClient } from '@supabase/supabase-js'
-const supabase = createClient('https://iftsrovzfagtvjoaqmzv.supabase.co', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlmdHNyb3Z6ZmFndHZqb2FxbXp2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzg0MzI2MjksImV4cCI6MjA1NDAwODYyOX0.ctI29Uw_3ph7fSIMTrLae224fpi-Q8JEL2qPXmbl-xQ')
+
+if (!supabaseUrl || !supabaseKey) {
+  throw new Error('Your project\'s URL and API key are required to create a Supabase client! Check your Supabase project\'s API settings to find these values https://supabase.com/dashboard/project/_/settings/api')
+}
+
+const supabase = createClient(supabaseUrl, supabaseKey)
 const projects = ref([])
 
 async function getProjects() {
   const { data } = await supabase.from('projects').select()
   projects.value = data
 }
-
 onMounted(() => {
   getProjects()
 })

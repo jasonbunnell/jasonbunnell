@@ -17,8 +17,10 @@ export default defineNuxtConfig({
   gtag: {
     id: 'G-SYKLL9LJWB'
   },
-  supabase: {
-    url: process.env.SUPABASE_URL,
-    key: process.env.SUPABASE_KEY
+  runtimeConfig: {
+    public: {
+      supabaseUrl: process.env.SUPABASE_URL,
+      supabaseKey: process.env.SUPABASE_KEY
+    }
   }
 })

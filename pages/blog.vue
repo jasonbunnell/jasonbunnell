@@ -1,6 +1,7 @@
 <template>
     <div>
-        <h2 class="text-xl font-semibold mb-10">Blog Posts</h2>
+        <h1 class="text-2xl font-semibold py-8">Blog Posts</h1>
+        <p class="text-lg">My wordpress blog can be found at <a href="https://blog.jasonbunnell.com" class="text-blue-700">blog.jasonbunnell.com</a></p>
         <BlogArticles />
     </div>
 </template>
