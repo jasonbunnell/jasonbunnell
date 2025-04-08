@@ -39,22 +39,22 @@
 </template>
 
 <script setup>
-import { createClient } from '@supabase/supabase-js'
+// import { createClient } from '@supabase/supabase-js'
 
-if (!supabaseUrl || !supabaseKey) {
-  throw new Error('Your project\'s URL and API key are required to create a Supabase client! Check your Supabase project\'s API settings to find these values https://supabase.com/dashboard/project/_/settings/api')
-}
+// if (!supabaseUrl || !supabaseKey) {
+//   throw new Error('Your project\'s URL and API key are required to create a Supabase client! Check your Supabase project\'s API settings to find these values https://supabase.com/dashboard/project/_/settings/api')
+// }
 
-const supabase = createClient(supabaseUrl, supabaseKey)
-const projects = ref([])
+// const supabase = createClient(supabaseUrl, supabaseKey)
+// const projects = ref([])
 
-async function getProjects() {
-  const { data } = await supabase.from('projects').select()
-  projects.value = data
-}
-onMounted(() => {
-  getProjects()
-})
+// async function getProjects() {
+//   const { data } = await supabase.from('projects').select()
+//   projects.value = data
+// }
+// onMounted(() => {
+//   getProjects()
+// })
 
 useSeoMeta({
   title: 'Jason Bunnell',  
