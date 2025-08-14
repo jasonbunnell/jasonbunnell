@@ -30,7 +30,7 @@
       <ul>
          <li><a href="https://flxcompass.com/">FLXcompass</a></li>
          <li><NuxtLink to="/sound-board">Starwars Soundboard</NuxtLink></li>
-         <li><NuxtLink to="/radio">Radio</NuxtLink></li>
+         <li><a href="https://flxradio.co">FLX radio</a></li>
       </ul>
    </div>
 

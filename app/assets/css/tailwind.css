@@ -13,7 +13,7 @@ body {
 }
 
 .main-header {
-    background: url(/public/img/jason.jpg);
+    background: url(/img/jason.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
