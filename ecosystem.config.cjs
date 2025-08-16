@@ -1,13 +1,13 @@
 module.exports = {
   apps: [{
     name: "nuxt-app",
+    cwd: "/var/www/vhosts/jasonbunnell.com/httpdocs", // <- adjust if your repo lives elsewhere
     script: ".output/server/index.mjs",
     interpreter: "node",
-    cwd: "/var/www/vhosts/jasonbunnell.com/httpdocs", // <-- adjust if needed
     env: {
-      HOST: "0.0.0.0",      // or NITRO_HOST: "0.0.0.0"
-      PORT: "3000",         // or NITRO_PORT: "3000"
-      NODE_ENV: "production"
+      NODE_ENV: "production",
+      HOST: "0.0.0.0",      // or NITRO_HOST
+      PORT: "3000"          // or NITRO_PORT
     }
   }]
 }
