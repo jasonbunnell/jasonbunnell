@@ -1,59 +1,170 @@
 <template>
 <!-- NEW Projects Section-->
  <section class="">
-    <h2 class="text-3xl px-10 py-10">Business Projects</h2>
+    <h2 class="text-3xl px-10 py-10">Projects</h2>
 
-    <div class="grid relative grid-cols-3 gap-6">
-        <!-- CARD #1 -->
-        <div v-for="project in projects" :key="project.id" class="flex flex-col flex-grow px-10 py-10">
-            <div class="max-w-sm relative rounded overflow-hidden shadow-lg flex flex-grow flex-col h-full">
-                <img class="w-full" :src="`/img/${project.img}`" alt="Finger Lakes entertainment app">
-                <div class="px-6 py-4 flex-grow">
-                    <div class="font-bold text-xl mb-2">{{ project.name }}</div>
-                    <p class="text-gray-700 text-base flex-grow h-full"> 
-                        {{ project.description }}
-                    </p>
-                </div>
-                <div class="px-16 py-4 absolute bottom-0 w-full bg-slate-200 flex justify-between">
-                    <span class="inline-block text-lg font-semibold text-blue-600 mr-2"><a href="flxcompass.com">flxcompass.com</a></span>
-                    <span class="inline-block text-lg font-semibold text-blue-600 mr-2">FB</span>
-                    <span class="inline-block text-lg font-semibold text-blue-600">YT</span>
-                    <span class="inline-block text-lg font-semibold text-blue-600">G</span>
-                </div>
-            </div>
-        </div>
+    <div class="p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
+    <!--Card 1-->
+    <a href="https://flxcompass.com" target="_blank" rel="follow" class="block rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img class="w-full" src="/img/FLXcompass.png" alt="FLXcompass">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">FLXcompass</div>
+        <p class="text-gray-700 text-base">
+          FLX compass is a local event and attraction directory for the Finger Lakes.    I was involved in product management, product marketing, go to market strategy, and early stage product development.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Manager</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Marketing</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Innovation</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Leadership</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Launch</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Operations & Financial Management</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Vue</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MongoDB</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+      </div>
+    </a>
+    <!--Card 2-->
+     <a href="https://flxmusic.co" target="_blank" rel="follow" class="block rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img class="w-full" src="/img/FLXmusic.jpg" alt="FLX music, music streaming for the Finger Lakes">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">FLXmusic</div>
+        <p class="text-gray-700 text-base">
+          FLX music is a local music streaming app that plays music from bands that have an upcoming event in the Finger Lakes.  This app was built with Vue and MongoDB and integrates with various ticketing platforms.  I was involved in product management, product marketing, go to market strategy, and early stage product development.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Manager</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Marketing</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Innovation</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Leadership</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Launch</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Operations & Financial Management</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Vue</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">MongoDB</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">JavaScript</span>
+      </div>
+    </a>
 
-    </div>
+    <!--Card 3-->
+     <a href="https://viphome.services" target="_blank" rel="follow" class="block rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img class="w-full" src="/img/VIP-home-services.png" alt="VIP Home Services">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">VIP Home Services</div>
+        <p class="text-gray-700 text-base">
+          VIP Home Services is a privately owned home services company that provides a wide range of services in Dallas Fort Worth.  I was involved in branding, marketing strategy, and designing and building a new Wordpress website with a potetial customer lead management system.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Manager</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Marketing</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Launch</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">WordPress</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Elementor</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"></span>
+      </div>
+    </a>
 
-   <div id="skills">
-      <h2 class="text-2xl text-gray-900">Web Projects</h2>
-      <ul>
-         <li><a href="https://flxcompass.com/">FLXcompass</a></li>
-         <li><a href="https://flxradio.co">FLX radio</a></li>
-      </ul>
-   </div>
+        <!--Card 4-->
+        <a href="https://sapalta.com" target="_blank" rel="follow" class="block rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img class="w-full" src="/img/sapalta.png" alt="SAPALTA">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">SAPALTA</div>
+        <p class="text-gray-700 text-base">
+          SAPALTA is a privately owned farm-to-table restaurant with a 100% locally sourced food and wine menu.  I was involved in branding, marketing strategy, and designing and building a new website that integrated with OpenTable.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Manager</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Marketing</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Reputation Management</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Leadership</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Operations</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Drupal</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">OpenTable</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Toast POS</span>
+      </div>
+    </a>
 
+    <!--Card 4-->
+    <a href="https://plumpointlodgeflx.com" target="_blank" rel="follow" class="block rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img class="w-full" src="/img/plumpointlodge.png" alt="Plum Point Lodge">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Plum Point Lodge</div>
+        <p class="text-gray-700 text-base">
+          Plum Point Lodge is a privately owned motel on Seneca Lake.  I was involved in re-branding, marking strategy, and designing and building a new website that integrated with the ResNexus POS and Pipedrive CRM.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Manager</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Marketing</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Reputation Management</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Leadership</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Operations</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Drupal</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">ResNexus</span>
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Pipedrive CRM</span>
+      </div>
+    </a>
+
+    <!--Card 5-->
+    <a href="https://tapgoods.com" target="_blank" rel="follow" class="block rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img class="w-full" src="/img/tapgoods.png" alt="Plum Point Lodge">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">TapGoods</div>
+        <p class="text-gray-700 text-base">
+          TapGoods is a rental platform for individuals and businesses. I was involved in early stage product marketing and budgeting.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Marketing</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Reputation Management</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Planning</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Ruby on Rails</span>
+      </div>
+    </a>
+
+      <!--Card 6-->
+      <a href="https://myvisiontrack.com/" target="_blank" rel="follow" class="block rounded overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <img class="w-full" src="/img/myvisiontrack.jpeg" alt="Plum Point Lodge">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">myVisionTrack</div>
+        <p class="text-gray-700 text-base">
+          myVisionTrack is a software-as-a-service (SaaS) platform for tracking and managing vision and eye health. I was involved in early stage product marketing, pricing,planning and budgeting.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Manager</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Marketing</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Pipeline Growth</span>
+        <span class="inline-block bg-blue-400 px-3 py-1 text-sm font-semibold text-white mr-2 mb-2">Product Planning</span>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Salesforce</span>
+      </div>
+    </a>
+
+
+</div>
 </section>
 
 </template>
 
 <script setup>
-// import { createClient } from '@supabase/supabase-js'
 
-// if (!supabaseUrl || !supabaseKey) {
-//   throw new Error('Your project\'s URL and API key are required to create a Supabase client! Check your Supabase project\'s API settings to find these values https://supabase.com/dashboard/project/_/settings/api')
-// }
-
-// const supabase = createClient(supabaseUrl, supabaseKey)
-// const projects = ref([])
-
-// async function getProjects() {
-//   const { data } = await supabase.from('projects').select()
-//   projects.value = data
-// }
-// onMounted(() => {
-//   getProjects()
-// })
 
 useSeoMeta({
   title: 'Jason Bunnell',  

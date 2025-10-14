@@ -27,7 +27,7 @@
             <div id="education">
                 <h2 class="text-2xl mt-8 text-gray-900">Education</h2>
 
-                <div class="education-block">
+                <div class="education-block bg-white">
                     <h3>Baylor University</h3>
                     <span class="education-date">Sept 1992 - Dec 1997</span>
                     <h4>Bachelor of Business Administration</h4>
@@ -35,7 +35,7 @@
 
 
                 <h2 class="text-2xl mt-8 text-gray-900">Certification</h2>
-                <div class="education-block">
+                <div class="education-block bg-white">
                     <h3>Google Analytics</h3>
                     <span class="education-date">May 2009 - current</span>
                     <h4>Google Analytics Individual Certification</h4>
@@ -46,7 +46,7 @@
                     </p>
                 </div>
 
-                <div class="education-block">
+                <div class="education-block bg-white">
                     <h3>Google Ads</h3>
                     <span class="education-date">March 2018 - current</span>
                     <h4>Google Ads</h4>
@@ -57,7 +57,7 @@
                     </p>
                 </div>
 
-                <div class="education-block">
+                <div class="education-block bg-white">
                     <h3>HubSpot</h3>
                     <span class="education-date">current</span>
                     <h4>HubSpot Inboung Marketing Certification</h4>
