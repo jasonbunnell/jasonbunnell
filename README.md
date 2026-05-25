@@ -6,3 +6,5 @@ This site is built with Vue, Nuxt, Tailwind, and uses a Supabase database.  It i
 
 ## [Personal Blog](https://blog.jasonbunnell.com)
 This site is a Wordpress blog that goes back to 2013.
+
+## [LinkedIn Profile](https://www.linkedin.com/in/jasonbunnell/)
