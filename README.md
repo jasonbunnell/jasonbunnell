@@ -7,4 +7,7 @@ This site is built with Vue, Nuxt, Tailwind, and uses a Supabase database.  It i
 ## [Personal Blog](https://blog.jasonbunnell.com)
 This site is a Wordpress blog that goes back to 2013.
 
+## [FLX Music](https://flxmusic.co)
+This is my current project and business.  It is a music and event guide for the Finger Lakes region of New York.  You can listen to music, browse events, discover local bands, find upcoming festivals and festival playlists, and more.  Think Pandora meets TripAdvisor meets regional event guide that is regionally focused.  Eventually I want to expand to all large metro areas and large state regions using a franchise model.
+
 ## [LinkedIn Profile](https://www.linkedin.com/in/jasonbunnell/)
