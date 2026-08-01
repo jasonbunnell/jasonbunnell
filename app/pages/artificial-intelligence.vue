@@ -18,7 +18,7 @@
       <p class="text-lg text-gray-600 italic">
         More here soon. In the meantime, see
         <NuxtLink to="/projects" class="underline">projects</NuxtLink> for what I've been building, or
-        <NuxtLink to="/who-am-i" class="underline">who am I</NuxtLink> for a look at what your browser
+        <NuxtLink to="/browser-security-report" class="underline">the browser security report</NuxtLink> for a look at what your browser
         gives away before you type a word.
       </p>
     </section>

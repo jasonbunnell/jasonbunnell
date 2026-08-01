@@ -6,7 +6,7 @@
 
     <div class="wai-shell">
       <aside v-if="r.wide" class="wai-rail">
-        <a href="#overview" class="wai-rail-brand">Jason Bunnell</a>
+        <div class="wai-rail-brand">Report sections</div>
         <div class="wai-rail-items">
           <a v-for="s in r.rail" :key="s.id" :href="s.href" class="wai-rail-item" :class="{ 'is-active': s.on }">{{ s.name }}</a>
         </div>
@@ -42,7 +42,7 @@ useSeoMeta({
   ogTitle: 'Browser Security Report | Jason Bunnell',
   ogDescription: 'Everything this page can read about you before you type a word, scored out of 100.',
   ogImage: '/img/jason-bunnell.jpg',
-  ogUrl: 'https://jasonbunnell.com/who-am-i',
+  ogUrl: 'https://jasonbunnell.com/browser-security-report',
   twitterCard: 'summary_large_image',
   robots: 'index, follow'
 })

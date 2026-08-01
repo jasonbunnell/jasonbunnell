@@ -50,9 +50,10 @@
   position: sticky; top: 0; flex: 0 0 212px; height: 100vh; overflow-y: auto;
   background: var(--rail); display: flex; flex-direction: column; padding-bottom: 20px;
 }
-.wai a.wai-rail-brand {
+.wai-rail-brand {
   height: 64px; display: flex; align-items: center; padding: 0 22px; flex: 0 0 auto;
-  font-size: 14px; font-weight: 500; letter-spacing: .09em; text-transform: uppercase; color: #fff;
+  font-size: 14px; font-weight: 500; letter-spacing: .09em; text-transform: uppercase;
+  color: var(--rail-idle);
 }
 .wai-rail-items { padding-top: 10px; display: flex; flex-direction: column; }
 .wai a.wai-rail-item {

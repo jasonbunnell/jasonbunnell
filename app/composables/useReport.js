@@ -352,7 +352,7 @@ export function useReport(options = {}) {
       ]
       const a = document.createElement('a')
       a.href = URL.createObjectURL(new Blob([parts.join('\n')], { type: 'text/plain' }))
-      a.download = 'who-am-i-report.txt'
+      a.download = 'browser-security-report.txt'
       a.click()
       setTimeout(() => URL.revokeObjectURL(a.href), 4000)
       const nm = s.lead.name.trim()
