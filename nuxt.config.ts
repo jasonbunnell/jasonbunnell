@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'],
+  css: ['~/assets/css/report.css'],
   app: {
     head: {
       title: 'Jason Bunnell',
