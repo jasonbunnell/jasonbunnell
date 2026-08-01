@@ -37,12 +37,12 @@
 definePageMeta({ layout: false })
 
 useSeoMeta({
-  title: 'Browser Security Report | Jason Bunnell',
+  title: 'Browser Privacy Report | Jason Bunnell',
   description: 'A live privacy report on your browser, your network, your machine, your location, the identifiers following you — scored out of 100, with what to do about it.',
-  ogTitle: 'Browser Security Report | Jason Bunnell',
+  ogTitle: 'Browser Privacy Report | Jason Bunnell',
   ogDescription: 'Everything this page can read about you before you type a word, scored out of 100.',
   ogImage: '/img/jason-bunnell.jpg',
-  ogUrl: 'https://jasonbunnell.com/browser-security-report',
+  ogUrl: 'https://jasonbunnell.com/browser-privacy-report',
   twitterCard: 'summary_large_image',
   robots: 'index, follow'
 })

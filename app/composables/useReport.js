@@ -340,7 +340,7 @@ export function useReport(options = {}) {
     downloadReport() {
       const line = (row) => `  ${String(row.label || row.key || '').padEnd(28)} ${String(row.value || row.size || '')}`
       const parts = [
-        'WHO AM I — PRIVACY REPORT', `Generated ${new Date().toString()}`, '',
+        'BROWSER PRIVACY REPORT', `Generated ${new Date().toString()}`, '',
         `PRIVACY SCORE: ${score.value}/100 (${band.value.name})`,
         `COMPOSITE ID: ${s.composite}`, `NAIVE ENTROPY: ${s.entropy} bits`, '',
         'INTERNET', ...s.net.map(line), '',
@@ -352,7 +352,7 @@ export function useReport(options = {}) {
       ]
       const a = document.createElement('a')
       a.href = URL.createObjectURL(new Blob([parts.join('\n')], { type: 'text/plain' }))
-      a.download = 'browser-security-report.txt'
+      a.download = 'browser-privacy-report.txt'
       a.click()
       setTimeout(() => URL.revokeObjectURL(a.href), 4000)
       const nm = s.lead.name.trim()

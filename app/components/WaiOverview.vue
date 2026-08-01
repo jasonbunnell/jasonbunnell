@@ -1,6 +1,6 @@
 <template>
   <section id="overview" class="wai-section">
-    <h1 class="wai-h1">Browser Security Report</h1>
+    <h1 class="wai-h1">Browser Privacy Report</h1>
     <p class="wai-lede wai-lede--hero">
       Want to know what information I can get about you from your browser and IP address?
       People don't take internet privacy very seriously. Most people think, &ldquo;I have nothing
